@@ -1,0 +1,47 @@
+.header-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #272727;
+  padding: 10px 20px;
+  list-style-type: none;
+  margin: 0px;
+}
+.website-logo {
+  width: 90px;
+  height: 30px;
+  margin-left: 10px;
+}
+.logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-job-links-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-text {
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.jobs-text {
+  color: #ffffff;
+  font-size: 18px;
+}
+.logout-btn {
+  color: #ffffff;
+  background-color: #6366f1;
+  border-radius: 5px;
+  padding: 8px 25px;
+  border: 0px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.link-box {
+  text-decoration: none;
+}

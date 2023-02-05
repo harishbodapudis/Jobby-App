@@ -1,0 +1,80 @@
+.form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-box {
+  background-color: #272727;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+  border-radius: 4px;
+}
+.login-form {
+  width: 300px;
+}
+.form-logo-box {
+  margin-bottom: 20px;
+  padding: 10px 0px;
+}
+.login-form-image {
+  height: 50px;
+  width: 150px;
+}
+.username-box {
+  margin: 10px 0px;
+}
+
+.password-box {
+  margin: 25px 0px;
+}
+.username-label {
+  color: #cbd5e1;
+  margin: 5px 0px;
+  font-size: 14px;
+}
+.password-label {
+  color: #cbd5e1;
+  margin: 5px 0px;
+  font-size: 14px;
+}
+.username {
+  padding: 8px 10px;
+  width: 100%;
+  margin: auto;
+  background-color: transparent;
+  border: 0.5px solid #475569;
+  border-radius: 2px;
+  outline: none;
+  color: #cbd5e1;
+}
+.password {
+  padding: 8px 10px;
+  width: 100%;
+  margin: auto;
+  background-color: transparent;
+  border: 0.5px solid #475569;
+  border-radius: 2px;
+  outline: none;
+  color: #cbd5e1;
+}
+.login-btn {
+  width: 300px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border: 0px;
+  padding: 8px 0px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.error-data {
+  color: #ff0b37;
+  font-size: 12px;
+  width: 300px;
+  height: 20px;
+}

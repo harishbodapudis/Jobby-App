@@ -1,0 +1,257 @@
+.profile-box {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-position: cover;
+  background-repeat: no-repeat;
+  width: 226px;
+  height: 198px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.employment-types-label {
+  color: #f1f5f9;
+}
+.salary-data {
+  color: #f1f5f9;
+}
+.profile-heading {
+  color: #4f46e5;
+}
+.bio {
+  color: #475569;
+  width: 200px;
+}
+.male-avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.jobs-body {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  width: 90%;
+  margin: 20px auto;
+}
+.search-results-box {
+  width: 70%;
+  margin-left: 20px;
+}
+.search-field {
+  width: 85%;
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  color: #f1f5f9;
+}
+.search-box {
+  border: 0.5px solid #7e858e;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border-radius: 2px;
+  padding: 1px;
+}
+.search-icon {
+  background-color: #202020;
+  color: #f1f5f9;
+}
+.description-data {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 25px;
+}
+.search-btn {
+  background-color: #202020;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 4px 5px;
+}
+.job-title {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.star {
+  color: #fbbf24;
+  margin-right: 5px;
+  margin-top: 0px;
+}
+
+.brf-case {
+  color: #ffffff;
+  width: 35px;
+  height: 25px;
+}
+.description-heading {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+
+.rating-text {
+  color: #ffffff;
+  font-size: 12px;
+}
+.location-text {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.employment-type-text {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.salary-text {
+  color: #f1f5f9;
+  font-weight: bold;
+}
+.description-box {
+  border-top: 1px solid #64748b;
+  text-align: left;
+}
+.job-data-box {
+  background-color: #202020;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0px;
+  cursor: pointer;
+}
+.logo-heading-box {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+.img-box {
+  margin-right: 10px;
+}
+.company-logo {
+  width: 50px;
+  height: 55px;
+}
+.start-rating-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+.salary-location-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0px;
+}
+.location-emp-type-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.location {
+  color: #ffffff;
+  width: 35px;
+  height: 25px;
+  margin-left: -10px;
+  padding: 0px;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+}
+.location-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0px;
+  padding: 0px;
+  margin-right: 10px;
+}
+.emp-type-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-headings {
+  color: #f1f5f9;
+  font-weight: 600;
+  font-size: 18px;
+}
+.employment-filter-box {
+  border-top: 0.5px solid #f1f5f9;
+  margin-top: 10px;
+}
+.salary-filter-box {
+  margin-top: 10px;
+  border-top: 0.5px solid #f1f5f9;
+}
+.employment-items-box {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.salary-items-box {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.employ-item {
+  margin: 10px 0px;
+}
+.salary-item {
+  margin: 10px 0px;
+}
+.jobs-block {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.retry-btn {
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 2px;
+  border: 0px;
+  cursor: pointer;
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+.failure-view {
+  width: 280px;
+  height: 200px;
+}
+.failure-connection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.no-jobs-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.no-jobs-img {
+  width: 400px;
+  height: 350px;
+}
+
+.profile-fail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
