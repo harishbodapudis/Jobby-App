@@ -357,8 +357,25 @@ class JobsPage extends Component {
       <div>
         <Header />
         <div className="jobs-body">
+          <div className="search-box-mb">
+            <input
+              type="search"
+              className="search-field"
+              value={searchKey}
+              placeholder="Search"
+              onChange={this.setSearchKey}
+            />
+            <button
+              type="button"
+              onClick={this.getSearchResults}
+              data-testid="searchButton"
+              className="search-btn"
+            >
+              <FiSearch className="search-icon" />
+            </button>
+          </div>
           <div className="filter-box">
-            <div>{this.renderProfileData()}</div>
+            <div className="profile-container">{this.renderProfileData()}</div>
             <div className="employment-filter-box">
               <h1 className="filter-headings">Type of Employment</h1>
               <ul className="employment-items-box">
